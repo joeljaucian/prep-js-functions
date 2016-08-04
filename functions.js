@@ -58,6 +58,12 @@ console.log(difference)
  *  This function returns the result of multiplying `b` by `a`.
  *  Store this value in a variable named `product`
  */
+function multiply(n2,n1){
+	return n2*n1;
+}
+multiply();
+console.log(b*a);
+
 
 
 /**
