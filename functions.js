@@ -11,6 +11,9 @@
  *  variable names you will create as they will become input to _other_
  *  functions.
  */
+var a = 1
+var b = 2
+
 
 
 /**
