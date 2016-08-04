@@ -75,6 +75,11 @@ console.log(b*a);
  *  "My football team lost X times this week", where `X` is the
  *  value stored in `difference`.
  */
+ function checkDifference(n1,n2){
+ 	return n1/n2;
+ }
+ checkDifference ()
+ console.log(a/b)
 
 
 /**
