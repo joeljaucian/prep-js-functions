@@ -27,7 +27,7 @@ function add(n1 ,n2){
 	return n1 + n2 ; 
 }
 add()
-console.log (a+b);
+
 var sum = (a+b);
 console.log(sum)
 
@@ -39,6 +39,16 @@ console.log(sum)
  *  This function returns the result of subtracting `b` from `a`.
  *  Store this value in a variable named `difference`
  */
+function subtract (n1,n2){
+	return n2 - n1;
+}
+subtract ()
+var difference = (b-a)
+console.log(difference)
+
+
+
+
 
 
 /**
