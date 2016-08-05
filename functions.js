@@ -123,8 +123,10 @@ console.log(checkProduct());
  *  **example:**
  *      addThenSubtract(4, 5, 7); //-> returns 2 because 4 + 5 - 7 = 2
  */
-
-
+function addThenSubtract(n1,n2,n3){
+return n1 + n2 - n3
+}
+console.log(addThenSubtract(4,5,7))
 /**
  *  #9
  *  Function - addThenMultiply
