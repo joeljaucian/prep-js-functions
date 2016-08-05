@@ -11,8 +11,10 @@
  *  variable names you will create as they will become input to _other_
  *  functions.
  */
-var a = 4;
-var b = 5;
+var a = 4
+var b = 5
+console.log (a,b)
+
 
 
 
@@ -23,13 +25,12 @@ var b = 5;
  *  This function returns the result of adding `a` and `b` together.
  *  Store this value in a variable named `sum`.
  */
-function add(n1 ,n2){
-	return n1 + n2 ; 
+function add(n1 , n2){
+	return n1 + n2;
 }
-add()
+var sum = add(a,b);
+console.log (sum);
 
-var sum = (a+b);
-console.log(sum)
 
 
 /**
@@ -39,12 +40,11 @@ console.log(sum)
  *  This function returns the result of subtracting `b` from `a`.
  *  Store this value in a variable named `difference`
  */
-function subtract (n1,n2){
-	return n2 - n1;
+function subtract(n1,n2){
+	return n1 - n2;
 }
-subtract ()
-var difference = (b-a)
-console.log(difference)
+var difference = subtract(a,b);
+console.log (difference);
 
 
 
@@ -58,12 +58,11 @@ console.log(difference)
  *  This function returns the result of multiplying `b` by `a`.
  *  Store this value in a variable named `product`
  */
-function multiply(n2,n1){
-	return n2*n1;
+function multiply(n1,n2){
+	return n1 * n2;
 }
-multiply();
-console.log(b*a);
-
+var product = multiply(a,b);
+console.log(product);
 
 
 /**
@@ -75,11 +74,12 @@ console.log(b*a);
  *  "My football team lost X times this week", where `X` is the
  *  value stored in `difference`.
  */
- function checkDifference(n1,n2){
- 	return n1/n2;
+ function checkDifference(){
+ 	return "My football team lost " + difference + " this week!";
  }
- checkDifference ()
- console.log(a/b)
+console.log(checkDifference());
+
+ 
 
 
 /**
@@ -91,6 +91,7 @@ console.log(b*a);
  *  "I CAN ADDZ X NUMBERS"  where `X` is the value
  *  stored in the variable `sum`.
  */
+
 
 
 /**
@@ -206,4 +207,6 @@ console.log(b*a);
  *  the message will be `"Bacon Pancakes, makin' Bacon Pancakes..."`
  *  othewise the message will be `"Let it go.... LET IT GOOOOOOoOoOoOo..."`
  */
+
+
 
