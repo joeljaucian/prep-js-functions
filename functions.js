@@ -124,7 +124,7 @@ console.log(checkProduct());
  *      addThenSubtract(4, 5, 7); //-> returns 2 because 4 + 5 - 7 = 2
  */
 function addThenSubtract(n1,n2,n3){
-return n1 + n2 - n3
+return (n1 + n2) - n3
 }
 console.log(addThenSubtract(4,5,7))
 /**
@@ -138,7 +138,10 @@ console.log(addThenSubtract(4,5,7))
  *
  *  Store the return of this function to a variable named `howMany`
  */
-
+function addThenMultiply(n1,n2,n3){
+	return (n1 + n2) * n3;
+}
+console.log(addThenMultiply(4,5,7)); 
 
 /**
  *  #10
@@ -154,6 +157,11 @@ console.log(addThenSubtract(4,5,7))
  * Call this function and pass your first and last name into it.
  * Store the return value to a variable named `myFullName`
  */
+function createFullName(firstName, lastName){
+	return firstName + " " + lastName 
+}
+var myFullName = createFullName("Joel","Jaucian" );
+console.log(myFullName);
 
 
 /**
