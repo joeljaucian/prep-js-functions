@@ -106,6 +106,10 @@ console.log(checkSum());
  */
 
 
+function checkProduct(){
+	return product * difference;
+}
+console.log(checkProduct());
 /**
  *  #8
  *  Function - addThenSubtract
