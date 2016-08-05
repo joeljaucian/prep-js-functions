@@ -91,8 +91,10 @@ console.log(checkDifference());
  *  "I CAN ADDZ X NUMBERS"  where `X` is the value
  *  stored in the variable `sum`.
  */
-
-
+function checkSum(){
+	return "I CAN ADDZ " + sum + " NUMBERS";
+}
+console.log(checkSum());
 
 /**
  *  #7
