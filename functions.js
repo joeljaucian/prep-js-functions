@@ -221,7 +221,11 @@ console.log(myFullName);
   *  **example output:**
  *      "Peter Bojanglesloves loves to eat California Burritos"
  */
-
+ function eatFood(firstName,lastName,food){
+ 	return firstName + " " + lastName + " loves to eat " + food + "!"
+ }
+ var eaten = eatFood("Joel","Jaucian","Lettuce")
+console.log(eaten)
 
 /**
  *  #14
