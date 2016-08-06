@@ -178,15 +178,20 @@ console.log(myFullName);
  *  **Call this function and pass in a number value.
  *  Store the return value to a variable named** `canDrinkBeer`
  */
-
+ function verifyDrinkingAge(age){
+ 	if (age >=21) {
+ 		return true;
+ 	}else{
+ 		return false;}
+}
+ 	var canDrinkBeer = verifyDrinkingAge(20)
+ 	console.log(canDrinkBeer)
 
 /**
  *  #12
  *  Function - throwParty
  *
  *  This function checks the value stored at the `canDrinkBeer` variable and
- *  if the value is `false` it should print to a message to the screen,
- *  "The Party will have tons of Cake!" otherwise this message
  *  should be "This Party will have an open bar".
  */
 
