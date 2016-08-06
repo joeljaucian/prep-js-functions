@@ -184,7 +184,7 @@ console.log(myFullName);
  	}else{
  		return false;}
 }
- 	var canDrinkBeer = verifyDrinkingAge(20)
+ 	var canDrinkBeer = verifyDrinkingAge(16)
  	console.log(canDrinkBeer)
 
 /**
@@ -193,7 +193,13 @@ console.log(myFullName);
  *
  *  This function checks the value stored at the `canDrinkBeer` variable and
  *  should be "This Party will have an open bar".
- */
+ */function throwParty(){
+ 	if (canDrinkBeer === false){
+ 		return "You can drink WATER!!"
+ 	}else{ return "Suck em up!!!"}
+ }
+ console.log(throwParty());
+
 
 
 /**
